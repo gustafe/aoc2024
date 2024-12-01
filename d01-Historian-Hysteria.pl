@@ -74,6 +74,8 @@ sub sec_to_hms {
 
 =encoding utf8
 
+Not a difficult problem, as expected from day 1. For some reason I just guessed that the items in the left list would be unique, but wise from previous problems I actually checked this. 
+
 Score: 2
 
 Leaderboard completion time: 02m31s
