@@ -83,8 +83,8 @@ sub sec_to_hms {
 =encoding utf8
 
 I'm sure there's a smarter way to handle part 2 than simply removing
-each element and testing the result, but it's still fast enough for
-this dataset.
+each element one by one and testing the result, but it's still fast
+enough for this dataset.
 
 Every year there’s a day when I have to use Perl’s C<splice> function,
 and every year I stare at the man page in mystification. Where does
