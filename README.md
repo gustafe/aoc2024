@@ -16,13 +16,22 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 4 / 4
+Running score: 6 / 6
+
+### Day 3: Mull It Over
+
+I'm going to add a new section to my "HOWTO AoC" post - a little regex
+goes a long way.
+
+Score: 2
+
+Leaderboard completion time: 3m22s
 
 ### Day 2: Red-Nosed Reports
 
 I'm sure there's a smarter way to handle part 2 than simply removing
-each element and testing the result, but it's still fast enough for
-this dataset.
+each element one by one and testing the result, but it's still fast
+enough for this dataset.
 
 Every year there’s a day when I have to use Perl’s `splice` function,
 and every year I stare at the man page in mystification. Where does
@@ -45,5 +54,6 @@ Leaderboard completion time: 02m31s
 ### Puzzles by difficulty  (leaderboard completion times)
 
 1. Day 02 - Red Nosed Reports: 04m42s
+1. Day 03 - Mull It Over: 3m22s
 1. Day 01 - Historian Hysteria: 02m31s
 
