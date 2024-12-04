@@ -71,6 +71,6 @@ goes a long way.
 
 Score: 2
 
-Leaderboard completion time: 3m22s
+Leaderboard completion time: 03m22s
 
 =cut

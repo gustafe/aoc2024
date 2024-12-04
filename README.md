@@ -35,7 +35,7 @@ goes a long way.
 
 Score: 2
 
-Leaderboard completion time: 3m22s
+Leaderboard completion time: 03m22s
 
 ### Day 2: Red-Nosed Reports
 
@@ -65,6 +65,6 @@ Leaderboard completion time: 02m31s
 
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
-1. Day 03 - Mull It Over: 3m22s
+1. Day 03 - Mull It Over: 03m22s
 1. Day 01 - Historian Hysteria: 02m31s
 
