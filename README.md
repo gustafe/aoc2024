@@ -16,7 +16,17 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 6 / 6
+Running score: 8 / 8
+
+### Day 4: Ceres Search
+
+Not a difficult problem, but a fiddly one. 
+
+As usual I represent the "map" as a hashref of hashrefs, because I want to be able to use negative indices without the risk of "wrapping around" which is a risk if you use arrays or arrayrefs. 
+
+Score: 2
+
+Leaderboard completion time: 05m41s
 
 ### Day 3: Mull It Over
 
@@ -53,6 +63,7 @@ Leaderboard completion time: 02m31s
 
 ### Puzzles by difficulty  (leaderboard completion times)
 
+1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
 1. Day 03 - Mull It Over: 3m22s
 1. Day 01 - Historian Hysteria: 02m31s
