@@ -23,67 +23,54 @@ while (<$fh>) { chomp; s/\r//gm; push @input, $_; }
 
 ### CODE
 my $Map;
-my $l = 1;
+my $r = 1;
 for my $line (@input) {
     my $c = 1;
     for my $el ( split( //, $line ) ) {
-        $Map->{$l}{$c} = $el;
+        $Map->{$r}{$c} = $el;
         $c++;
     }
-    $l++;
+    $r++;
 }
 my %dirs = (
-    E  => [[ 0, 1], [ 0, 2], [ 0, 3]],
-    W  => [[ 0,-1], [ 0,-2], [ 0,-3]],
-    N  => [[-1, 0], [-2, 0], [-3, 0]], 
-    S  => [[ 1, 0], [ 2, 0], [ 3, 0]], 
-    SE => [[ 1, 1], [ 2, 2], [ 3, 3]], 
-    NE => [[-1, 1], [-2, 2], [-3, 3]], 
-    NW => [[-1,-1], [-2,-2], [-3,-3]],
-    SW => [[ 1,-1], [ 2,-2], [ 3,-3]],
+    E  => [ 0,  1 ],    W  => [ 0,  -1 ],    N  => [ -1, 0 ],    S  => [ 1,  0 ],
+    SE => [ 1,  1 ],    NE => [ -1, 1 ],    NW => [ -1, -1 ],    SW => [ 1,  -1 ],
 );
+
 my %sums;
-for my $l ( sort { $a <=> $b } keys %$Map ) {
-    for my $c ( sort { $a <=> $b } keys %{ $Map->{$l} } ) {
+for my $r ( sort { $a <=> $b } keys %$Map ) {
+    for my $c ( sort { $a <=> $b } keys %{ $Map->{$r} } ) {
         no warnings 'uninitialized';
 
-        if ( $Map->{$l}{$c} eq 'X' ) {               # part 1
+        if ( $Map->{$r}{$c} eq 'X' ) {    # part 1
             for my $d ( keys %dirs ) {
+                my @string = map { $Map->{$r+$dirs{$d}->[0]*$_}{ $c+$dirs{$d}->[1]*$_}} ( 1, 2, 3 );
 
-                if ($Map->{ $l + $dirs{$d}->[0][0] }{ $c + $dirs{$d}->[0][1] }  eq 'M' and
-                    $Map->{ $l + $dirs{$d}->[1][0] }{ $c + $dirs{$d}->[1][1] }  eq 'A' and
-                    $Map->{ $l + $dirs{$d}->[2][0] }{ $c + $dirs{$d}->[2][1] }  eq 'S' )
-                {
-                    say "string XMAS found at ($l,$c) with direction $d"
-                        if $testing;
+                if ( join( '', @string ) eq 'MAS' ) {
+		    say "string XMAS found at ($r,$c) with direction $d"  if $testing;
                     $sums{1}++;
+
                 }
             }
-
         }
-        if ( $Map->{$l}{$c} eq 'A' ) {
-            my ( $NW, $NE, $SW, $SE ) = (
-                $Map->{ $l - 1 }{ $c - 1 },
-                $Map->{ $l - 1 }{ $c + 1 },
-                $Map->{ $l + 1 }{ $c - 1 },
-                $Map->{ $l + 1 }{ $c + 1 }
-            );
-            if ((( $NW eq 'S' and $SE eq 'M' ) or ( $NW eq 'M' and $SE eq 'S' )) and
-		(( $NE eq 'S' and $SW eq 'M' ) or ( $NE eq 'M' and $SW eq 'S' )) )
-                
-            {
-                say "X-MAS found centered on ($l,$c)" if $testing;
+        if ( $Map->{$r}{$c} eq 'A' ) {
+	    my ( $slash, $backslash ) =($Map->{$r+1}{$c-1} . $Map->{$r-1}{$c+1},
+					$Map->{$r-1}{$c-1} . $Map->{$r+1}{$c+1});
+
+	    if (($slash eq 'SM' or $slash eq 'MS') and ($backslash eq 'SM' or $backslash eq 'MS')) {
+                say "X-MAS found centered on ($r,$c)" if $testing;
                 $sums{2}++;
-            }
-
+	    }
         }
-
     }
 }
 
 ### FINALIZE - tests and run time
+if (!$testing) {
 is( $sums{1}, 2406, "Part 1: $sums{1}" );
 is( $sums{2}, 1807, "Part 2: $sums{2}" );
+
+}
 done_testing();
 say sec_to_hms(tv_interval($start_time));
 
