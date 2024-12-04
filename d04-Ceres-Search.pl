@@ -57,7 +57,8 @@ for my $r ( sort { $a <=> $b } keys %$Map ) {
 	    my ( $slash, $backslash ) =($Map->{$r+1}{$c-1} . $Map->{$r-1}{$c+1},
 					$Map->{$r-1}{$c-1} . $Map->{$r+1}{$c+1});
 
-	    if (($slash eq 'SM' or $slash eq 'MS') and ($backslash eq 'SM' or $backslash eq 'MS')) {
+	    if (($slash =~ m/SM|MS/) and ($backslash =~ m/SM|MS/)) {
+
                 say "X-MAS found centered on ($r,$c)" if $testing;
                 $sums{2}++;
 	    }
