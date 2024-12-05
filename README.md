@@ -16,7 +16,21 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 8 / 8
+Running score: 10 / 10
+
+### Day 5: Print Queue
+
+This took me longer than it should have. I'll use yesterday's office
+Christmas dinner as an excuse.
+
+I could have tried to figure out a smarter way to sort each list
+according to the rules... or I could just repeatedly switch elements I
+know don't fit in until everything is ok. Runtime is less than a
+second anyway.
+
+Score: 2
+
+Leaderboard completion time: 03m43s
 
 ### Day 4: Ceres Search
 
@@ -65,6 +79,7 @@ Leaderboard completion time: 02m31s
 
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
+1. Day 05 - Print Queue: 03m43s
 1. Day 03 - Mull It Over: 03m22s
 1. Day 01 - Historian Hysteria: 02m31s
 
