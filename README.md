@@ -16,7 +16,19 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 10 / 10
+Running score: 12 / 12
+
+### Day 6: Guard Gallivant
+
+A tough but enjoyable puzzle. Part 2 threw me for a bit of a loop but
+I opted for a brute-force solution. With some optimization it runs at
+around 5m on my machine.
+
+Rating: 4/5
+
+Score: 2
+
+Leaderboard completion time: 08m53s
 
 ### Day 5: Print Queue
 
@@ -28,6 +40,8 @@ according to the rules... or I could just repeatedly switch elements I
 know don't fit in until everything is ok. Runtime is less than a
 second anyway.
 
+Rating: 2/5
+
 Score: 2
 
 Leaderboard completion time: 03m43s
@@ -36,7 +50,11 @@ Leaderboard completion time: 03m43s
 
 Not a difficult problem, but a fiddly one. 
 
-As usual I represent the "map" as a hashref of hashrefs, because I want to be able to use negative indices without the risk of "wrapping around" which is a risk if you use arrays or arrayrefs. 
+As usual I represent the "map" as a hashref of hashrefs, because I
+want to be able to use negative indices without the risk of "wrapping
+around" which is a risk if you use arrays or arrayrefs.
+
+Rating: 3/5
 
 Score: 2
 
@@ -46,6 +64,8 @@ Leaderboard completion time: 05m41s
 
 I'm going to add a new section to my "HOWTO AoC" post - a little regex
 goes a long way.
+
+Rating: 4/5
 
 Score: 2
 
@@ -61,6 +81,8 @@ Every year there’s a day when I have to use Perl’s `splice` function,
 and every year I stare at the man page in mystification. Where does
 this syntax come from?!
 
+Rating: 3/5
+
 Score: 2
 
 Leaderboard completion time: 04m42s
@@ -71,12 +93,15 @@ Not a difficult problem, as expected from day 1. For some reason I
 just guessed that the items in the left list would be unique, but wise
 from previous problems I actually checked this.
 
+Rating: 3/5
+
 Score: 2
 
 Leaderboard completion time: 02m31s
 
 ### Puzzles by difficulty  (leaderboard completion times)
 
+1. Day 06 - Guard Gallivant: 08m53s
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
 1. Day 05 - Print Queue: 03m43s
