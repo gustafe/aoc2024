@@ -136,6 +136,8 @@ according to the rules... or I could just repeatedly switch elements I
 know don't fit in until everything is ok. Runtime is less than a
 second anyway.
 
+Rating: 2/5
+
 Score: 2
 
 Leaderboard completion time: 03m43s

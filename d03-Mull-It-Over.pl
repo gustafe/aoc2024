@@ -69,6 +69,8 @@ I'm going to add a new section to my "HOWTO AoC" post - a little regex
 goes a long way.
 
 
+Rating: 4/5
+
 Score: 2
 
 Leaderboard completion time: 03m22s

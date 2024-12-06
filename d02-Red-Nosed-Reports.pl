@@ -90,6 +90,8 @@ Every year there’s a day when I have to use Perl’s C<splice> function,
 and every year I stare at the man page in mystification. Where does
 this syntax come from?!
 
+Rating: 3/5
+
 Score: 2
 
 Leaderboard completion time: 04m42s

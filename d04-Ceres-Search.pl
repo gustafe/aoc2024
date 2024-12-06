@@ -92,7 +92,11 @@ sub sec_to_hms {
 
 Not a difficult problem, but a fiddly one. 
 
-As usual I represent the "map" as a hashref of hashrefs, because I want to be able to use negative indices without the risk of "wrapping around" which is a risk if you use arrays or arrayrefs. 
+As usual I represent the "map" as a hashref of hashrefs, because I
+want to be able to use negative indices without the risk of "wrapping
+around" which is a risk if you use arrays or arrayrefs.
+
+Rating: 3/5
 
 Score: 2
 
