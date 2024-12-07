@@ -43,6 +43,7 @@ DFS: while (@stack) {
             my $add    = $cur->{res} + $map[$next_idx];
             my $mul    = $cur->{res} * $map[$next_idx];
             my $concat = $cur->{res} . $map[$next_idx] if $part2;
+
             if ( $add == $el->{target} and $next_idx == $#map ) {
                 $results{ $el->{target} }++;
                 last DFS;
@@ -56,9 +57,15 @@ DFS: while (@stack) {
                 $results{ $el->{target} }++;
                 last DFS;
             }
-            push @stack, { idx => $next_idx, res => $add };
-            push @stack, { idx => $next_idx, res => $mul };
-            push @stack, { idx => $next_idx, res => $concat } if $part2;
+
+            push @stack, { idx => $next_idx, res => $add }
+                unless ( $add > $el->{target} );
+            push @stack, { idx => $next_idx, res => $mul }
+                unless ( $mul > $el->{target} );
+            if ($part2) {
+                push @stack, { idx => $next_idx, res => $concat }
+                    unless ( $concat > $el->{target} );
+            }
 
         } else {
             last DFS;
@@ -94,9 +101,7 @@ sub sec_to_hms {
 
 This was a fun one! I naively tried a combinatorics solution before
 settling on a depth-first search instead. This is plenty fast for part
-1 and still takes around 1m on part 2. For some reason my attempts to
-optimize by cutting branches short if they became to large gave me the
-wrong results. I could probably get this faster if needed.
+1 and still takes around 30s on part 2. 
 
 Of course everyone and their preferred parental unit used recursion,
 but that's too advanced for this smooth brain.

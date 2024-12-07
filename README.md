@@ -22,9 +22,7 @@ Running score: 14 / 14
 
 This was a fun one! I naively tried a combinatorics solution before
 settling on a depth-first search instead. This is plenty fast for part
-1 and still takes around 1m on part 2. For some reason my attempts to
-optimize by cutting branches short if they became to large gave me the
-wrong results. I could probably get this faster if needed.
+1 and still takes around 30s on part 2. 
 
 Of course everyone and their preferred parental unit used recursion,
 but that's too advanced for this smooth brain.
