@@ -16,7 +16,24 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 12 / 12
+Running score: 14 / 14
+
+### Day 7: Bridge Repair
+
+This was a fun one! I naively tried a combinatorics solution before
+settling on a depth-first search instead. This is plenty fast for part
+1 and still takes around 1m on part 2. For some reason my attempts to
+optimize by cutting branches short if they became to large gave me the
+wrong results. I could probably get this faster if needed.
+
+Of course everyone and their preferred parental unit used recursion,
+but that's too advanced for this smooth brain.
+
+Rating: 4/5
+
+Score: 2
+
+Leaderboard completion time: 03m47s
 
 ### Day 6: Guard Gallivant
 
@@ -104,6 +121,7 @@ Leaderboard completion time: 02m31s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
+1. Day 07 - Bridge Repair: 03m47s
 1. Day 05 - Print Queue: 03m43s
 1. Day 03 - Mull It Over: 03m22s
 1. Day 01 - Historian Hysteria: 02m31s
