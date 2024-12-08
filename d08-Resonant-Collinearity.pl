@@ -127,6 +127,10 @@ This wasn't a very hard problem really, but the description was
 unusually vague for AoC. In the end I just had to work against the
 example and change my code until I got the same result.
 
+Also shoutout to Eric, that I<scamp>, that included a zero in the data
+set that totally broke my existence code in part 2. It was a fun thing
+to figure out.
+
 Score: 2
 
 Leaderboard completion time: 07m12s
