@@ -16,7 +16,17 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 14 / 14
+Running score: 16 / 16
+
+### Day 8: Resonant Collinearity
+
+This wasn't a very hard problem really, but the description was
+unusually vague for AoC. In the end I just had to work against the
+example and change my code until I got the same result.
+
+Score: 2
+
+Leaderboard completion time: 07m12s
 
 ### Day 7: Bridge Repair
 
@@ -117,6 +127,7 @@ Leaderboard completion time: 02m31s
 ### Puzzles by difficulty  (leaderboard completion times)
 
 1. Day 06 - Guard Gallivant: 08m53s
+1. Day 08 - Resonant Collinearity: 07m12s
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
 1. Day 07 - Bridge Repair: 03m47s
