@@ -71,20 +71,23 @@ for my $type ( keys %$antennas ) {
             my ( $step_i, $step_j ) = ( 0, 0 );
             while ( $Map->{ $start_i->[0] }{ $start_i->[1] } ) {
                 $antinodes->{p2}{ $start_i->[0] }{ $start_i->[1] }++;
+
+		# the rules are a bit vague here but for part one only
+		# one specific antinode is what we want. This
+		# convoluted logic is to capture that
                 $antinodes->{p1}{ $start_i->[0] }{ $start_i->[1] }++
                     if $step_i == 1;
 
                 $start_i = [ $start_i->[0] - $delta[0],
-                    $start_i->[1] - $delta[1] ];
+                             $start_i->[1] - $delta[1] ];
                 $step_i++;
             }
             while ( $Map->{ $start_j->[0] }{ $start_j->[1] } ) {
                 $antinodes->{p2}{ $start_j->[0] }{ $start_j->[1] }++;
                 $antinodes->{p1}{ $start_j->[0] }{ $start_j->[1] }++
                     if $step_j == 1;
-
-                $start_j->[0] = $start_j->[0] + $delta[0];
-                $start_j->[1] = $start_j->[1] + $delta[1];
+                $start_j = [ $start_j->[0] + $delta[0],
+                             $start_j->[1] + $delta[1] ];
                 $step_j++;
             }
         }
