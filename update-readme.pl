@@ -22,7 +22,7 @@ my $score_sum;
 my %metadata;
 
 open( my $out_fh, ">", $readme ) or die "can't open $readme for writing: $!";
-
+my %days;
 for my $f ( sort { $b cmp $a } @files ) {
 
     my $str;
@@ -30,7 +30,7 @@ for my $f ( sort { $b cmp $a } @files ) {
         or die "can't open $dir/$f for reading: $!";
 
     my ( $day, $title ) = $f =~ m/^d(\d+)\-(.*)/;
-
+    $days{$day}++ if $day<=25;
     $title =~ s/\.pl$//;
     $title =~ s/\-/\ /g;
 
@@ -39,9 +39,10 @@ for my $f ( sort { $b cmp $a } @files ) {
     my $parser = Pod::Markdown->new(%opts);
     $parser->output_string($str);
     $parser->parse_file($in_fh);
-
+    my $has_score;
     if ( $str =~ m/^Score\:.*(\d+)/m ) {
         $score_sum += $1;
+	$has_score++;
     }
 
     if ( $str =~ m/completion time: (.*)$/ ) {
@@ -81,7 +82,7 @@ my $top = shift @entries;
 say $out_fh $top;
 
 say $out_fh "Running score: $score_sum / "
-    . ( scalar(@entries) ) * 2 . "\n";
+    . ( scalar(keys %days) ) * 2 . "\n";
 
 
 for my $e (@entries) {
