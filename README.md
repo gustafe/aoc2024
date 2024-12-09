@@ -16,7 +16,19 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 16 / 16
+Running score: 18 / 18
+
+### Day 9: Disk Fragmenter
+
+I'm usually pretty careful when copying the puzzle input, but today the buffer size on macOS Terminal failed me. It was only after comparing my algo with some on the subreddit that I figured out I was right all along.
+
+Part 2 was straightforward but slow until I put in some auxilary hashes to keep  track of the gaps.
+
+Score: 2
+
+Leaderboard completion time: 14m05s
+
+
 
 ### Day 8: Resonant Collinearity
 
@@ -130,6 +142,7 @@ Leaderboard completion time: 02m31s
 
 ### Puzzles by difficulty  (leaderboard completion times)
 
+1. Day 09 - Disk Fragmenter p1: 14m05s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 08 - Resonant Collinearity: 07m12s
 1. Day 04 - Ceres Search: 05m41s
