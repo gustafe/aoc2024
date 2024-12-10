@@ -16,7 +16,18 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 18 / 18
+Running score: 20 / 20
+
+### Day 10: Hoof It
+
+This year's easiest part 2 for me, I just happened to record the data
+needed. Judging from the subreddit, so did everyone else.
+
+Rating: 3/5
+
+Score: 2
+
+Leaderboard completion time: 04m14s
 
 ### Day 9: Disk Fragmenter
 
@@ -156,6 +167,7 @@ Leaderboard completion time: 02m31s
 1. Day 08 - Resonant Collinearity: 07m12s
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
+1. Day 10 - Hoof It: 04m14s
 1. Day 07 - Bridge Repair: 03m47s
 1. Day 05 - Print Queue: 03m43s
 1. Day 03 - Mull It Over: 03m22s
