@@ -29,15 +29,15 @@ for my $line (@input) {
     push @calibs, { target => $target, list => \@list };
 }
 
-# DFS
+# BFS
 my %results;
 if ($part2) { say "getting the answer to part 2, please be patient... " }
 for my $el (@calibs) {
     my @map   = @{ $el->{list} };
-    my @stack = ( { idx => 0, res => $map[0] } );
-DFS: while (@stack) {
+    my @queue = ( { idx => 0, res => $map[0] } );
+BFS: while (@queue) {
 
-        my $cur      = shift @stack;
+        my $cur      = shift @queue;
         my $next_idx = $cur->{idx} + 1;
         if ( defined $map[$next_idx] ) {
             my $add    = $cur->{res} + $map[$next_idx];
@@ -46,29 +46,29 @@ DFS: while (@stack) {
 
             if ( $add == $el->{target} and $next_idx == $#map ) {
                 $results{ $el->{target} }++;
-                last DFS;
+                last BFS;
             }
             if ( $mul == $el->{target} and $next_idx == $#map ) {
                 $results{ $el->{target} }++;
-                last DFS;
+                last BFS;
             }
             if ( $part2 and $concat == $el->{target} and $next_idx == $#map )
             {
                 $results{ $el->{target} }++;
-                last DFS;
+                last BFS;
             }
 
-            push @stack, { idx => $next_idx, res => $add }
+            push @queue, { idx => $next_idx, res => $add }
                 unless ( $add > $el->{target} );
-            push @stack, { idx => $next_idx, res => $mul }
+            push @queue, { idx => $next_idx, res => $mul }
                 unless ( $mul > $el->{target} );
             if ($part2) {
-                push @stack, { idx => $next_idx, res => $concat }
+                push @queue, { idx => $next_idx, res => $concat }
                     unless ( $concat > $el->{target} );
             }
 
         } else {
-            last DFS;
+            last BFS;
         }
     }
 }
