@@ -120,7 +120,7 @@ felt I deserved it. Score decreased accordingly.
 
 Rating: 4/5
 
-Score: __1__
+Score: B<1>
 
 Leaderboard completion time: 06m24s
 

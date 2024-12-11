@@ -26,7 +26,7 @@ felt I deserved it. Score decreased accordingly.
 
 Rating: 4/5
 
-Score: \_\_1\_\_
+Score: **1**
 
 Leaderboard completion time: 06m24s
 
