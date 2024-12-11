@@ -16,7 +16,19 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 20 / 20
+Running score: 21 / 22
+
+### Day 11: Plutonian Pebbles
+
+I awarded myself a "freebie" for part 2 today because the solution I
+found in the subreddit (see comments for credit) was so elegant, and I
+felt I deserved it. Score decreased accordingly.
+
+Rating: 4/5
+
+Score: \_\_1\_\_
+
+Leaderboard completion time: 06m24s
 
 ### Day 10: Hoof It
 
@@ -165,6 +177,7 @@ Leaderboard completion time: 02m31s
 1. Day 09 - Disk Fragmenter: 14m05s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 08 - Resonant Collinearity: 07m12s
+1. Day 11 - Plutonian Pebbles: 06m24s
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
 1. Day 10 - Hoof It: 04m14s
