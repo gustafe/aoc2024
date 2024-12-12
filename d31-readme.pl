@@ -22,7 +22,7 @@ myself without help.
 
 =over
 
-=item nothing yet...
+=item Day 12 part 2
 
 =back
 

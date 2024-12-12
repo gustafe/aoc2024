@@ -12,11 +12,19 @@ myself without help.
 
 ## TODO
 
-- nothing yet...
+- Day 12 part 2
 
 ## Solution comments in reverse order
 
-Running score: 21 / 22
+Running score: 22 / 24
+
+### Day 12: Garden Groups
+
+Part 1 only for now.
+
+Score: 1
+
+Leaderboard completion time: 17m42s
 
 ### Day 11: Plutonian Pebbles
 
@@ -174,6 +182,7 @@ Leaderboard completion time: 02m31s
 
 ### Puzzles by difficulty  (leaderboard completion times)
 
+1. Day 12 - Garden Groups: 17m42s
 1. Day 09 - Disk Fragmenter: 14m05s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 08 - Resonant Collinearity: 07m12s
