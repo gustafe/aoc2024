@@ -16,11 +16,28 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 22 / 24
+Running score: 24 / 26
+
+### Day 13: Claw Contraption
+
+My first stab at linear algebra failed miserably, so I quickly cribbed
+a search with priority queue from a previous year. This was way too
+slow for part 2 so I revisited the algebra solution and figured out
+how to only return integer solutions.
+
+Score: 2
+
+Leaderboard completion time: 11m04s
 
 ### Day 12: Garden Groups
 
 Part 1 only for now.
+
+I use flood-fill to fill out the different areas, and at the same time
+I mark out if I find a border and in which direction it's facing. That
+helped me find the perimiter, and is a good start for finding sides
+(or rather corners), but I still need to figure out all the literal
+edge cases.
 
 Score: 1
 
@@ -184,6 +201,7 @@ Leaderboard completion time: 02m31s
 
 1. Day 12 - Garden Groups: 17m42s
 1. Day 09 - Disk Fragmenter: 14m05s
+1. Day 13 - Claw Contraption: 11m04s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 08 - Resonant Collinearity: 07m12s
 1. Day 11 - Plutonian Pebbles: 06m24s
