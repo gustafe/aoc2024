@@ -16,7 +16,17 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 24 / 26
+Running score: 26 / 28
+
+### Day 14: Restroom Redoubt
+
+A fun problem once you got around the incredibly vague requirement for part 2. 
+
+Rating: 4/5
+
+Score: 2
+
+Leaderboard completion time: 15m48s
 
 ### Day 13: Claw Contraption
 
@@ -200,6 +210,7 @@ Leaderboard completion time: 02m31s
 ### Puzzles by difficulty  (leaderboard completion times)
 
 1. Day 12 - Garden Groups: 17m42s
+1. Day 14 - Restroom Redoubt: 15m48s
 1. Day 09 - Disk Fragmenter: 14m05s
 1. Day 13 - Claw Contraption: 11m04s
 1. Day 06 - Guard Gallivant: 08m53s
