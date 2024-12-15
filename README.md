@@ -13,10 +13,19 @@ myself without help.
 ## TODO
 
 - Day 12 part 2
+- Day 15
 
 ## Solution comments in reverse order
 
-Running score: 26 / 28
+Running score: 26 / 30
+
+### Day 15: Warehouse Woes
+
+I didn't have time to solve this today so will have to add it to the backlog.
+
+Score: 0
+
+Leaderboard completion time: 30m00s
 
 ### Day 14: Restroom Redoubt
 
@@ -209,6 +218,7 @@ Leaderboard completion time: 02m31s
 
 ### Puzzles by difficulty  (leaderboard completion times)
 
+1. Day 15 - Warehouse Woes: 30m00s
 1. Day 12 - Garden Groups: 17m42s
 1. Day 14 - Restroom Redoubt: 15m48s
 1. Day 09 - Disk Fragmenter: 14m05s
