@@ -17,7 +17,17 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 26 / 30
+Running score: 28 / 32
+
+### Day 16: Reindeer Maze
+
+Thank you `Array::Heap::PriorityQueue::Numeric`!
+
+Had to look for tips on how to keep track of all the paths in part 2. Credit in source. 
+
+Score: 2
+
+Leaderboard completion time: 13m47s
 
 ### Day 15: Warehouse Woes
 
@@ -222,6 +232,7 @@ Leaderboard completion time: 02m31s
 1. Day 12 - Garden Groups: 17m42s
 1. Day 14 - Restroom Redoubt: 15m48s
 1. Day 09 - Disk Fragmenter: 14m05s
+1. Day 16 - Reindeer Maze: 13m47s
 1. Day 13 - Claw Contraption: 11m04s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 08 - Resonant Collinearity: 07m12s
