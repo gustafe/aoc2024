@@ -13,11 +13,11 @@ myself without help.
 ## TODO
 
 - Day 12 part 2
-- Day 15
+- Day 15 part 2
 
 ## Solution comments in reverse order
 
-Running score: 28 / 32
+Running score: 29 / 32
 
 ### Day 16: Reindeer Maze
 
@@ -25,15 +25,17 @@ Thank you `Array::Heap::PriorityQueue::Numeric`!
 
 Had to look for tips on how to keep track of all the paths in part 2. Credit in source. 
 
+Rating: 3/5
+
 Score: 2
 
 Leaderboard completion time: 13m47s
 
 ### Day 15: Warehouse Woes
 
-I didn't have time to solve this today so will have to add it to the backlog.
+Part 1 done, part 2 in the backlog
 
-Score: 0
+Score: 1
 
 Leaderboard completion time: 30m00s
 

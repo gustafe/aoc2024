@@ -24,7 +24,7 @@ myself without help.
 
 =item Day 12 part 2
 
-=item Day 15
+=item Day 15 part 2
 
 =back
 

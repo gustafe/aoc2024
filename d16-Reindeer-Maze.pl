@@ -144,6 +144,8 @@ Thank you C<Array::Heap::PriorityQueue::Numeric>!
 
 Had to look for tips on how to keep track of all the paths in part 2. Credit in source. 
 
+Rating: 3/5
+
 Score: 2
 
 Leaderboard completion time: 13m47s
