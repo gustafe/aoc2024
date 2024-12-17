@@ -17,7 +17,15 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 29 / 32
+Running score: 30 / 34
+
+### Day 17: Chronospatial Computer
+
+Part 1 only for now.
+
+Score: 1
+
+Leaderboard completion time: 44m39s
 
 ### Day 16: Reindeer Maze
 
@@ -230,6 +238,7 @@ Leaderboard completion time: 02m31s
 
 ### Puzzles by difficulty  (leaderboard completion times)
 
+1. Day 17 - Chronospatial Computer: 44m39s
 1. Day 15 - Warehouse Woes: 30m00s
 1. Day 12 - Garden Groups: 17m42s
 1. Day 14 - Restroom Redoubt: 15m48s
