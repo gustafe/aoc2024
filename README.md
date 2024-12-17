@@ -14,6 +14,7 @@ myself without help.
 
 - Day 12 part 2
 - Day 15 part 2
+- Day 17 part 2
 
 ## Solution comments in reverse order
 

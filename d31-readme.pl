@@ -26,6 +26,8 @@ myself without help.
 
 =item Day 15 part 2
 
+=item Day 17 part 2
+
 =back
 
 =head2 Solution comments in reverse order
