@@ -18,7 +18,15 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 30 / 34
+Running score: 32 / 36
+
+### Day 18: RAM Run
+
+This is what's called a "breather episode". Basic Dijkstra's combined with adding blocks until no paths are found. Runs in around a minute. Can probably be optimized. 
+
+Score: 2
+
+Leaderboard completion time: 05m55s
 
 ### Day 17: Chronospatial Computer
 
@@ -249,6 +257,7 @@ Leaderboard completion time: 02m31s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 08 - Resonant Collinearity: 07m12s
 1. Day 11 - Plutonian Pebbles: 06m24s
+1. Day 18 - RAM Run: 05m55s
 1. Day 04 - Ceres Search: 05m41s
 1. Day 02 - Red Nosed Reports: 04m42s
 1. Day 10 - Hoof It: 04m14s
