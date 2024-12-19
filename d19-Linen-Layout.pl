@@ -108,7 +108,9 @@ sub sec_to_hms {
 
 =encoding utf8
 
-Part 1 was simple enough, I just used BFS as usual this year. For part 2 I copped out and found a nice solution for the recursion logic in the subreddit. Credit in source.
+Part 1 was simple enough, I just used DFS as usual this year. For part
+2 I copped out and found a nice solution for the recursion logic in
+the subreddit. Credit in source.
 
 Score: 1
 

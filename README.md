@@ -22,7 +22,9 @@ Running score: 33 / 38
 
 ### Day 19: Linen Layout
 
-Part 1 was simple enough, I just used BFS as usual this year. For part 2 I copped out and found a nice solution for the recursion logic in the subreddit. Credit in source.
+Part 1 was simple enough, I just used DFS as usual this year. For part
+2 I copped out and found a nice solution for the recursion logic in
+the subreddit. Credit in source.
 
 Score: 1
 
