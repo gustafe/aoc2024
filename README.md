@@ -18,7 +18,15 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 32 / 36
+Running score: 33 / 38
+
+### Day 19: Linen Layout
+
+Part 1 was simple enough, I just used BFS as usual this year. For part 2 I copped out and found a nice solution for the recursion logic in the subreddit. Credit in source.
+
+Score: 1
+
+Leaderboard completion time: 03m16s
 
 ### Day 18: RAM Run
 
@@ -264,5 +272,6 @@ Leaderboard completion time: 02m31s
 1. Day 07 - Bridge Repair: 03m47s
 1. Day 05 - Print Queue: 03m43s
 1. Day 03 - Mull It Over: 03m22s
+1. Day 19 - Linen Layout: 03m16s
 1. Day 01 - Historian Hysteria: 02m31s
 
