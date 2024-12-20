@@ -12,13 +12,21 @@ myself without help.
 
 ## TODO
 
-- Day 12 part 2
 - Day 15 part 2
 - Day 17 part 2
+- Day 20
 
 ## Solution comments in reverse order
 
-Running score: 33 / 38
+Running score: 34 / 40
+
+### Day 20: Race Condition
+
+Skipping this for now. Looks boring.
+
+Score: 0
+
+Leaderboard completion time: 15m58s
 
 ### Day 19: Linen Layout
 
@@ -89,15 +97,17 @@ Leaderboard completion time: 11m04s
 
 ### Day 12: Garden Groups
 
-Part 1 only for now.
+This took me a few days - not that I worked on it full time, but in
+the times between other puzzles.
 
 I use flood-fill to fill out the different areas, and at the same time
 I mark out if I find a border and in which direction it's facing. That
-helped me find the perimiter, and is a good start for finding sides
-(or rather corners), but I still need to figure out all the literal
-edge cases.
+helped me find the perimiter, and is a good start for finding sides.
 
-Score: 1
+After messing around trying to identify corners, I did what everyone
+else did and "sorted" sides per row and column.
+
+Score: 2
 
 Leaderboard completion time: 17m42s
 
@@ -260,6 +270,7 @@ Leaderboard completion time: 02m31s
 1. Day 17 - Chronospatial Computer: 44m39s
 1. Day 15 - Warehouse Woes: 30m00s
 1. Day 12 - Garden Groups: 17m42s
+1. Day 20 - Race Condition: 15m58s
 1. Day 14 - Restroom Redoubt: 15m48s
 1. Day 09 - Disk Fragmenter: 14m05s
 1. Day 16 - Reindeer Maze: 13m47s

@@ -1,5 +1,5 @@
 #! /usr/bin/env perl
-# Advent of Code 2024 Day 19 - Linen Layout - part 1 / part 2 / complete solution
+# Advent of Code 2024 Day 19 - Linen Layout - complete solution
 # https://adventofcode.com/2024/day/19
 # https://gerikson.com/files/AoC2024/UNLICENSE
 ###########################################################
