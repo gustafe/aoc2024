@@ -14,11 +14,21 @@ myself without help.
 
 - Day 15 part 2
 - Day 17 part 2
-- Day 20
+- publish Day 20
+- Day 21
 
 ## Solution comments in reverse order
 
-Running score: 34 / 40
+Running score: 34 / 42
+
+### Day 21: Keypad Conundrum
+
+It's the Saturday before Christmas, I have 1,000 things to do, and I'm
+feeling sick. This will have to wait.
+
+Score: 0
+
+Leaderboard completion time: 01h01m23s
 
 ### Day 20: Race Condition
 
@@ -267,6 +277,7 @@ Leaderboard completion time: 02m31s
 
 ### Puzzles by difficulty  (leaderboard completion times)
 
+1. Day 21 - Keypad Conundrum: 01h01m23s
 1. Day 17 - Chronospatial Computer: 44m39s
 1. Day 15 - Warehouse Woes: 30m00s
 1. Day 12 - Garden Groups: 17m42s
