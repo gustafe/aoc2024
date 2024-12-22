@@ -19,7 +19,25 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 34 / 42
+Running score: 36 / 44
+
+### Day 22: Monkey Market
+
+A bunch of off-by-one errors plagued me today, along with the first
+time this year that my $5 VPS wasn't really up to scratch. I guess the
+enormous amount of allocations just swamped it, although I never got
+an error.
+
+A helpful post on the subreddit provided me with some useful test
+cases that really helped. Credit in source!
+
+On a ten year old NUC it runs in around 15s.
+
+Rating: 4/5
+
+Score: 2
+
+Leaderboard completion time: 12m15s
 
 ### Day 21: Keypad Conundrum
 
@@ -285,6 +303,7 @@ Leaderboard completion time: 02m31s
 1. Day 14 - Restroom Redoubt: 15m48s
 1. Day 09 - Disk Fragmenter: 14m05s
 1. Day 16 - Reindeer Maze: 13m47s
+1. Day 22 - Monkey Market: 12m15s
 1. Day 13 - Claw Contraption: 11m04s
 1. Day 06 - Guard Gallivant: 08m53s
 1. Day 08 - Resonant Collinearity: 07m12s
