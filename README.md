@@ -50,7 +50,7 @@ Leaderboard completion time: 01h01m23s
 
 ### Day 20: Race Condition
 
-Skipping this for now. Looks boring.
+I took a pass on this today too, but it was a fun problem.
 
 Score: 0
 
