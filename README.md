@@ -14,12 +14,20 @@ myself without help.
 
 - Day 15 part 2
 - Day 17 part 2
-- publish Day 20
 - Day 21
+- Day 23 part 2
 
 ## Solution comments in reverse order
 
-Running score: 36 / 44
+Running score: 37 / 46
+
+### Day 23: LAN Party
+
+Last day of work before xmas and of course I have a customer call to deal with. I'll have to party with the LAN later. 
+
+Score: 1
+
+Leaderboard completion time: 05m07s
 
 ### Day 22: Monkey Market
 
@@ -310,6 +318,7 @@ Leaderboard completion time: 02m31s
 1. Day 11 - Plutonian Pebbles: 06m24s
 1. Day 18 - RAM Run: 05m55s
 1. Day 04 - Ceres Search: 05m41s
+1. Day 23 - LAN Party: 05m07s
 1. Day 02 - Red Nosed Reports: 04m42s
 1. Day 10 - Hoof It: 04m14s
 1. Day 07 - Bridge Repair: 03m47s
