@@ -30,6 +30,8 @@ myself without help.
 
 =item Day 23 part 2
 
+=item Day 24 part 2
+
 =back
 
 =head2 Solution comments in reverse order

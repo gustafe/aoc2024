@@ -16,10 +16,24 @@ myself without help.
 - Day 17 part 2
 - Day 21
 - Day 23 part 2
+- Day 24 part 2
 
 ## Solution comments in reverse order
 
-Running score: 37 / 46
+Running score: 38 / 48
+
+### Day 24: Crossed Wires
+
+Xmas eve with my parents visiting didn't leave time for more than part 1.
+
+I had a lot of issues with the "binary". I tried using the Perl
+built-in binary AND, OR and XOR, but got a lot of non-valid values for
+some reason. Gave up and coded some slightly more complicated
+comparisons.
+
+Score: 1
+
+Leaderboard completion time: 01h01m13s
 
 ### Day 23: LAN Party
 
@@ -304,6 +318,7 @@ Leaderboard completion time: 02m31s
 ### Puzzles by difficulty  (leaderboard completion times)
 
 1. Day 21 - Keypad Conundrum: 01h01m23s
+1. Day 24 - Crossed Wires: 01h01m13s
 1. Day 17 - Chronospatial Computer: 44m39s
 1. Day 15 - Warehouse Woes: 30m00s
 1. Day 12 - Garden Groups: 17m42s
