@@ -20,7 +20,15 @@ myself without help.
 
 ## Solution comments in reverse order
 
-Running score: 38 / 48
+Running score: 39 / 50
+
+### Day 25: Code Chronicle
+
+Traditionally easy Christmas Day puzzle. 6 stars to go to get them all!
+
+Score: 1
+
+Leaderboard completion time: 04m43s
 
 ### Day 24: Crossed Wires
 
@@ -334,6 +342,7 @@ Leaderboard completion time: 02m31s
 1. Day 18 - RAM Run: 05m55s
 1. Day 04 - Ceres Search: 05m41s
 1. Day 23 - LAN Party: 05m07s
+1. Day 25 - Code Chronicle: 04m43s
 1. Day 02 - Red Nosed Reports: 04m42s
 1. Day 10 - Hoof It: 04m14s
 1. Day 07 - Bridge Repair: 03m47s
